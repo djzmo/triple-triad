@@ -1,0 +1,44 @@
+{
+  "name": "@djzmo/triple-triad",
+  "version": "1.0.0",
+  "description": "Reimplementation of Triple Triad (Final Fantasy VIII card game) in Phaser 3",
+  "main": "src/game.ts",
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "eslint . --ext .ts",
+    "dev": "rollup --config rollup.config.dev.js",
+    "watch": "rollup --watch --config rollup.config.dev.js",
+    "test": "jest",
+    "build": "rollup --config rollup.config.dist.js",
+    "start": "npx serve dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djzmo/triple-triad.git"
+  },
+  "license": "GPLV3",
+  "devDependencies": {
+    "@rollup/plugin-replace": "^2.3.4",
+    "@types/jest": "^26.0.23",
+    "@types/shuffle-array": "^1.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.23.0",
+    "@typescript-eslint/parser": "^4.23.0",
+    "eslint": "^7.26.0",
+    "eslint-config-prettier": "^8.3.0",
+    "jest": "^26.6.3",
+    "phaser": "^3.54.0",
+    "prettier": "^2.3.0",
+    "random": "^3.0.6",
+    "rollup": "^2.35.1",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-serve": "^1.1.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.29.0",
+    "shuffle-array": "^1.0.1",
+    "ts-jest": "^26.5.6",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}
