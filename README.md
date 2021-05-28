@@ -32,6 +32,10 @@ After running the commands, the game should be accessible from http://localhost:
 
 [Same, Plus, and Combo explained for newcomers](https://www.reddit.com/r/ffxiv/comments/2wzo9j/triple_triad_same_plus_and_combo_explained_for/)
 
+## Known Issues
+
+- Same/Plus do not take into account element effects yet
+
 ## Disclaimer
 
 This software was created by [@djzmo](https://github.com/djzmo) and is provided 'as-is', without any express or implied warranty. In no event will the authors be held liable for any damages arising from the use of this software.
